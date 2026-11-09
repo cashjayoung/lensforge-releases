@@ -1,0 +1,9 @@
+{
+  "version": "0.5.0",
+  "notes": "首个支持自动更新的版本（上下变横条纹、预览按成品比例）。",
+  "full": {
+    "url": "https://github.com/cashjayoung/lensforge-releases/releases/download/v0.5.0/LensForge-v0.5.0-Trial.zip",
+    "sha256": "2a4a9dd6ad169c200cf3f48dbed913ebcb8dda25486a0de9c74c3ac63a0303c4",
+    "size": 64821045
+  }
+}

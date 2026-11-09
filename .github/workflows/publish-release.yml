@@ -1,0 +1,23 @@
+name: publish-release
+on:
+  push:
+    paths: ["publish/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish release assets from publish/
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          VER=$(python3 -c "import json;print(json.load(open('publish/manifest_trial.json'))['version'])")
+          TAG="v$VER"
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" --title "$TAG" --notes "LensForge $TAG"
+          fi
+          gh release upload "$TAG" publish/* --clobber
