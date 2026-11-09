@@ -1,9 +1,9 @@
 {
-  "version": "0.6.0",
-  "notes": "新增参数计算器：输入成品尺寸/PPI/LPI/方向，一键算出周期、光栅条数与备稿尺寸（如塔罗牌上下变 3912×458），分步公式可核对，并可回填主界面。",
+  "version": "0.6.1",
+  "notes": "修复：双击 LFUpdater 不再报错（改为友好提示）；主窗口可自由缩放（最小 1020×600），右栏参数区改为可滚动。",
   "patch": {
-    "url": "https://github.com/cashjayoung/lensforge-releases/releases/download/v0.6.0/LensForge-v0.6.0-patch-trial.zip",
-    "sha256": "1de2ca8f21b488e6e9cbd424d8f24b06f9c4ea2da4dc381f6ea81168a5dbf0a1",
-    "size": 6192452
+    "url": "https://github.com/cashjayoung/lensforge-releases/releases/download/v0.6.1/LensForge-v0.6.1-patch-trial.zip",
+    "sha256": "0b40ec910e912d3cc222ac923290dcc50f2d70e7b0f9213dbfbe106f08ed2db6",
+    "size": 6193141
   }
 }
