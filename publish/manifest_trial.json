@@ -1,14 +1,14 @@
 {
-  "version": "0.7.0",
-  "notes": "新增深度图图层：照片＋灰度深度图逐像素出立体（PSD 里把深度图层命名为「深度图/Depth」放照片上方即自动识别），可与立体/翻变/动画同图混排。",
+  "version": "0.7.1",
+  "notes": "单个打开入口：PSD 与普通图片（JPG/PNG/TIF 等）同一个「打开素材」搞定——单张图片直接当平面图（可勾线/配深度图），多选多张自动按文件名顺序排成翻变帧，不用再先转存 PSD。",
   "patch": {
-    "url": "https://github.com/cashjayoung/lensforge-releases/releases/download/v0.7.0/LensForge-v0.7.0-patch-trial.zip",
-    "sha256": "972c73a4f4d40b311c8a7be0a4412b006893f5b9112a3a4969b3535d40185252",
-    "size": 6204226
+    "url": "https://github.com/cashjayoung/lensforge-releases/releases/download/v0.7.1/LensForge-v0.7.1-patch-trial.zip",
+    "sha256": "cb3b6b0e7360c0df55ec175d056767eed9db5a39d6b871343c200c1906be5fc2",
+    "size": 6209754
   },
   "full": {
-    "url": "https://github.com/cashjayoung/lensforge-releases/releases/download/v0.7.0/LensForge-v0.7.0-Trial.zip",
-    "sha256": "545aacddf2e47b3ea8a34328b2cb86ebb333adb38d93c17cc2772b71713ed852",
-    "size": 64844189
+    "url": "https://github.com/cashjayoung/lensforge-releases/releases/download/v0.7.1/LensForge-v0.7.1-Trial.zip",
+    "sha256": "37daac479da09a02197be63c719a5224171c7b6e545f6c84898397d32253203b",
+    "size": 64849717
   }
 }
