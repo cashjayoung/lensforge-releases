@@ -1,14 +1,14 @@
 {
-  "version": "0.7.2",
-  "notes": "内部改进版（无功能变化）：更新器支持分片整包下载，国内通道整包改为分片自动发布；同时包含 v0.7.1 的图片直接导入。",
+  "version": "0.7.3",
+  "notes": "内部改进版（无功能变化）：分片整包下载加单片自动重试，弱网更稳；含 v0.7.1 图片直接导入与 v0.7.2 分片发布。",
   "patch": {
-    "url": "https://github.com/cashjayoung/lensforge-releases/releases/download/v0.7.2/LensForge-v0.7.2-patch-trial.zip",
-    "sha256": "d0f20ec8c743a30e21494182ade387d786b7e9d844e4709603c87ef9244b639a",
-    "size": 6211258
+    "url": "https://github.com/cashjayoung/lensforge-releases/releases/download/v0.7.3/LensForge-v0.7.3-patch-trial.zip",
+    "sha256": "516aef6b434e026599bcdbf6dfdf13e66ca4f992036d66b489374df5e8cfdb48",
+    "size": 6211147
   },
   "full": {
-    "url": "https://github.com/cashjayoung/lensforge-releases/releases/download/v0.7.2/LensForge-v0.7.2-Trial.zip",
-    "sha256": "82a4472408137115aa6d191d8f128a09498a887e28d327bafd10acdf7a443e36",
-    "size": 64851221
+    "url": "https://github.com/cashjayoung/lensforge-releases/releases/download/v0.7.3/LensForge-v0.7.3-Trial.zip",
+    "sha256": "ae6cc9b74dd5eab9cdd667cef53829ebd511b95203a0903f3e5e904216f37fd6",
+    "size": 64851110
   }
 }
