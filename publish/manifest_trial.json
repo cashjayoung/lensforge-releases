@@ -1,9 +1,14 @@
 {
-  "version": "0.6.1",
-  "notes": "修复：双击 LFUpdater 不再报错（改为友好提示）；主窗口可自由缩放（最小 1020×600），右栏参数区改为可滚动。",
+  "version": "0.7.0",
+  "notes": "新增深度图图层：照片＋灰度深度图逐像素出立体（PSD 里把深度图层命名为「深度图/Depth」放照片上方即自动识别），可与立体/翻变/动画同图混排。",
   "patch": {
-    "url": "https://github.com/cashjayoung/lensforge-releases/releases/download/v0.6.1/LensForge-v0.6.1-patch-trial.zip",
-    "sha256": "0b40ec910e912d3cc222ac923290dcc50f2d70e7b0f9213dbfbe106f08ed2db6",
-    "size": 6193141
+    "url": "https://github.com/cashjayoung/lensforge-releases/releases/download/v0.7.0/LensForge-v0.7.0-patch-trial.zip",
+    "sha256": "972c73a4f4d40b311c8a7be0a4412b006893f5b9112a3a4969b3535d40185252",
+    "size": 6204226
+  },
+  "full": {
+    "url": "https://github.com/cashjayoung/lensforge-releases/releases/download/v0.7.0/LensForge-v0.7.0-Trial.zip",
+    "sha256": "545aacddf2e47b3ea8a34328b2cb86ebb333adb38d93c17cc2772b71713ed852",
+    "size": 64844189
   }
 }
