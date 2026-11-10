@@ -1,14 +1,14 @@
 {
-  "version": "0.7.1",
-  "notes": "单个打开入口：PSD 与普通图片（JPG/PNG/TIF 等）同一个「打开素材」搞定——单张图片直接当平面图（可勾线/配深度图），多选多张自动按文件名顺序排成翻变帧，不用再先转存 PSD。",
+  "version": "0.7.2",
+  "notes": "内部改进版（无功能变化）：更新器支持分片整包下载，国内通道整包改为分片自动发布；同时包含 v0.7.1 的图片直接导入。",
   "patch": {
-    "url": "https://github.com/cashjayoung/lensforge-releases/releases/download/v0.7.1/LensForge-v0.7.1-patch-trial.zip",
-    "sha256": "cb3b6b0e7360c0df55ec175d056767eed9db5a39d6b871343c200c1906be5fc2",
-    "size": 6209754
+    "url": "https://github.com/cashjayoung/lensforge-releases/releases/download/v0.7.2/LensForge-v0.7.2-patch-trial.zip",
+    "sha256": "d0f20ec8c743a30e21494182ade387d786b7e9d844e4709603c87ef9244b639a",
+    "size": 6211258
   },
   "full": {
-    "url": "https://github.com/cashjayoung/lensforge-releases/releases/download/v0.7.1/LensForge-v0.7.1-Trial.zip",
-    "sha256": "37daac479da09a02197be63c719a5224171c7b6e545f6c84898397d32253203b",
-    "size": 64849717
+    "url": "https://github.com/cashjayoung/lensforge-releases/releases/download/v0.7.2/LensForge-v0.7.2-Trial.zip",
+    "sha256": "82a4472408137115aa6d191d8f128a09498a887e28d327bafd10acdf7a443e36",
+    "size": 64851221
   }
 }
